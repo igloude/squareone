@@ -27,19 +27,19 @@ button {
   font-weight: 700;
 }
 
-.t__hero {
+.hero {
   font-size: 48px;
 }
 
-.t__heading {
+.heading {
   font-size: 34px;
 }
 
-.t__subheading {
+.subheading {
   font-size: 24px;
 }
 
-.t__subtext {
+.subtext {
   color: var(--foreground-3);
   font-size: 14px;
 }
@@ -57,4 +57,8 @@ a {
   font-size: 18px;
   font-weight: 700;
   line-height: 1;
+}
+
+.center {
+  text-align: center;
 }

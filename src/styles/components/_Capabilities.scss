@@ -1,6 +1,12 @@
 @use '../base' as *;
 
 .capabilities {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-xl;  
+}
+
+.cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: $spacing-lg;

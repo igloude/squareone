@@ -6,10 +6,10 @@ const Header = () => {
     <header className='header container'>
       <Logo />
 
-      <nav className='header__nav' role='navigation'>
-        <a href='#' className='link link__header'>Our work</a>
-        <a href='#' className='link link__header'>What we do</a>
-        <a href='#' className='link link__header'>Plans</a>
+      <nav role='navigation'>
+        <a href='#' className='link link__nav'>Our work</a>
+        <a href='#' className='link link__nav'>What we do</a>
+        <a href='#' className='link link__nav'>Plans</a>
       </nav>
     </header>
   );

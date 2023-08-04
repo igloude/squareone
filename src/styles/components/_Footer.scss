@@ -4,8 +4,24 @@
   background-color: var(--background);
   padding-top: $spacing-lg;
   padding-bottom: $spacing-lg;
+  display: flex;
+  align-items: center;
 
   @include query('large') {
     height: 560px;
+    padding: 0;
+  }
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    nav {
+      display: flex;
+      flex-direction: column;
+      gap: $spacing;
+      text-align: right;
+    }
   }
 }

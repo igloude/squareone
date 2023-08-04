@@ -4,12 +4,12 @@ import Logo from './icons/Logo.tsx';
 const Footer = () => {
   return (
     <footer className='footer dark'>
-      <div className='container'>
+      <div className='footer__inner container'>
         <Logo />
 
         <nav>
-          <a href='#'>Privacy Policy</a>
-          <a href='#'>Terms &amp; Conditions</a>
+          <a href='#' className='link link__nav'>Privacy Policy</a>
+          <a href='#' className='link link__nav'>Terms &amp; Conditions</a>
         </nav>
       </div>
     </footer>

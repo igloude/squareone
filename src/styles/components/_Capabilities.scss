@@ -1,0 +1,11 @@
+@use '../base' as *;
+
+.capabilities {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: $spacing-lg;
+}
+
+.card {
+  padding: $spacing;
+}

@@ -1,0 +1,28 @@
+$breakpoints: (
+  'xsmall': 450px,
+  'small': 600px,
+  'medium': 768px,
+  'large': 992px,
+  'xlarge': 1200px,
+) !default;
+
+$font-family: 'Rubik', 'Roboto', sans-serif !default;
+
+$stroke-width: 3px;
+$stroke-width-heavy: 6px;
+
+$spacing: 12px;
+
+:root {
+  --foreground-1: #000000;
+  --foreground-2: #2a2a2a;
+  --foreground-3: #505050;
+  --background: #ffffff;
+}
+
+.dark {
+  --foreground-1: #ffffff;
+  --foreground-2: #fafafa;
+  --foreground-3: #dedede;
+  --background: #000000;
+}

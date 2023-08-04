@@ -1,0 +1,60 @@
+@use 'variables' as *;
+
+body {
+  font-family: $font-family;
+  font-style: normal;
+  font-weight: normal;
+  color: var(--foreground-2);
+}
+
+p,
+span,
+a,
+button {
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+b,
+button {
+  color: var(--foreground-1);
+  font-weight: 700;
+}
+
+.t__hero {
+  font-size: 48px;
+}
+
+.t__heading {
+  font-size: 34px;
+}
+
+.t__subheading {
+  font-size: 24px;
+}
+
+.t__subtext {
+  color: var(--foreground-3);
+  font-size: 14px;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.link__header {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--foreground-1);
+}

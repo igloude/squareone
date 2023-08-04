@@ -1,0 +1,5 @@
+@use 'variables' as *;
+
+.stroke {
+  border: $stroke-width solid var(--foreground-1);
+}

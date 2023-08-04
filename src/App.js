@@ -2,7 +2,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import Work from './components/Work';
 import Capabilities from './components/Capabilities';
-import Pricing from './components/Pricing';
+import Plans from './components/Plans';
 import Footer from './components/Footer';
 import './styles/index.scss';
 
@@ -14,7 +14,7 @@ function App() {
         <Hero />
         <Work />
         <Capabilities />
-        <Pricing />
+        <Plans />
       </main>
       <Footer />
     </>

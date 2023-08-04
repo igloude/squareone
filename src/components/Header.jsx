@@ -7,9 +7,9 @@ const Header = () => {
       <Logo />
 
       <nav role='navigation'>
-        <a href='#' className='link link__nav'>Our work</a>
-        <a href='#' className='link link__nav'>What we do</a>
-        <a href='#' className='link link__nav'>Plans</a>
+        <a href='#work' className='link link__nav'>Our work</a>
+        <a href='#capabilities' className='link link__nav'>What we do</a>
+        <a href='#plans' className='link link__nav'>Plans</a>
       </nav>
     </header>
   );

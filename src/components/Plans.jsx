@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Pricing = () => {
+const Plans = () => {
   return (
-    <div className="pricing">
+    <div className="plans" id="plans">
       <p>Not sure what you need? <a href="#">Let's chat</a> and see if we're a fit.</p>
     </div>
   )
 }
 
-export default Pricing;
+export default Plans;

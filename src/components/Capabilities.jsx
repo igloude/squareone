@@ -2,7 +2,7 @@ import React from 'react';
 
 const Capabilities = () => {
   return (
-    <div className="capabilities">
+    <div className="capabilities" id="capabilities">
     cards
     </div>  
   );

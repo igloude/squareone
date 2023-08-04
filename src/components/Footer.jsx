@@ -7,10 +7,14 @@ const Footer = () => {
       <div className='footer__inner container'>
         <Logo />
 
-        <nav>
-          <a href='#' className='link link__nav'>Privacy Policy</a>
-          <a href='#' className='link link__nav'>Terms &amp; Conditions</a>
-        </nav>
+        {/* 
+          TODO: routing
+
+          <nav>
+            <a href='#' className='link link__nav'>Privacy Policy</a>
+            <a href='#' className='link link__nav'>Terms &amp; Conditions</a>
+          </nav> 
+        */}
       </div>
     </footer>
   );

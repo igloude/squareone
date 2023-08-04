@@ -5,3 +5,11 @@
   max-width: $container;
   margin: 0 auto;
 }
+
+.main {
+  $pad: 160px;
+  display: grid;
+  gap: $pad;
+  padding-top: $pad;
+  padding-bottom: $pad;
+}

@@ -3,7 +3,7 @@ import Logo from './icons/Logo.tsx';
 
 const Header = () => {
   return (
-    <header className='header'>
+    <header className='header container'>
       <Logo />
 
       <nav className='header__nav' role='navigation'>

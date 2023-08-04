@@ -4,6 +4,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: $spacing-lg;
+  padding-bottom: $spacing-lg;
 
   &__nav {
     display: flex;

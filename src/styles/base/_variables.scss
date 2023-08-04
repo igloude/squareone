@@ -2,16 +2,21 @@ $breakpoints: (
   'xsmall': 450px,
   'small': 600px,
   'medium': 768px,
-  'large': 992px,
+  'large': 980px,
   'xlarge': 1200px,
 ) !default;
+$container: 980px !default;
 
 $font-family: 'Rubik', 'Roboto', sans-serif !default;
 
 $stroke-width: 3px;
 $stroke-width-heavy: 6px;
 
+$spacing-xs: 4px;
+$spacing-sm: 8px;
 $spacing: 12px;
+$spacing-lg: 24px;
+$spacing-xl: 32px;
 
 :root {
   --foreground-1: #000000;

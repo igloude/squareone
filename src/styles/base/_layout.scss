@@ -1,0 +1,7 @@
+@use 'variables' as *;
+
+.container {
+  width: 100%;
+  max-width: $container;
+  margin: 0 auto;
+}

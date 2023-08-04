@@ -1,15 +1,18 @@
 import Header from './components/Header';
+import Footer from './components/Footer';
 import './styles/index.scss';
 
 function App() {
   return (
     <>
       <Header />
-      {/* Hero */}
-      {/* Work */}
-      {/* Capabilities */}
-      {/* Pricing */}
-      {/* Footer */}
+      <main>
+        {/* Hero */}
+        {/* Work */}
+        {/* Capabilities */}
+        {/* Pricing */}
+      </main>
+      <Footer />
     </>
   );
 }

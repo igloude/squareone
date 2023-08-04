@@ -1,0 +1,11 @@
+@use '../base' as *;
+
+.footer {
+  background-color: var(--background);
+  padding-top: $spacing-lg;
+  padding-bottom: $spacing-lg;
+
+  @include query('large') {
+    height: 560px;
+  }
+}

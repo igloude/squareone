@@ -45,7 +45,7 @@ button {
 }
 
 a {
-  color: inherit;
+  color: var(--foreground-1);
   text-decoration: underline;
 
   &:hover {
@@ -56,5 +56,4 @@ a {
 .link__header {
   font-size: 18px;
   font-weight: 700;
-  color: var(--foreground-1);
 }
